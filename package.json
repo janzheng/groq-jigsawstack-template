@@ -1,0 +1,19 @@
+{
+  "name": "groq-jigsawstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "direct-prompt": "node direct-prompt.js",
+    "engine-prompt": "node engine-prompt.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "jigsawstack": "^0.2.8",
+    "node-fetch": "^3.3.2"
+  }
+}
