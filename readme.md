@@ -157,4 +157,4 @@ This template is designed to be a foundation for you to get started with. Key ar
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Credits
-Created by ____________. 
+Created by Jan Zheng & JigsawStack. 
