@@ -146,7 +146,7 @@ This template is designed to be a foundation for you to get started with. Key ar
 ### For Developers
 - **Create your free JigsawStack account:** Access the dashboard, API keys, and documentation at [JigsawStack Dashboard](https://jigsawstack.com/dashboard)
 - **Build and customize:** Fork this repo and start customizing to build out your own application
-- **Learn more:** Refer to the [JigsawStack documentation](https://docs.jigsawstack.com) and [Prompt Engine setup guide](https://docs.jigsawstack.com/prompt-engine)
+- **Learn more:** Refer to the [JigsawStack documentation](https://docs.jigsawstack.com) and [Prompt Engine setup guide](https://jigsawstack.com/docs/examples/core-ai/prompt-engine)
 - **Get support:** Connect with other developers building on Groq at [Groq Developer Forum](https://community.groq.com)
 
 ### For Founders and Business Leaders
