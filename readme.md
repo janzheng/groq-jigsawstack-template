@@ -1,25 +1,28 @@
-# JigsawStack Prompt Engine Example
+# JigsawStack Prompt Engine Template
 
-**A complete example demonstrating JigsawStack's Prompt Engine with Groq-powered AI - automatically select the best LLM for every prompt with built-in safety features.**
+**Have you ever felt lost trying to choose the best model for your AI application? With dozens of models available on Groq - from Llama and Qwen to Gemma and beyond - choosing the optimal LLM for each specific prompt can be overwhelming and time-consuming.
+
+This complete starter template demonstrates JigsawStack's Prompt Engine powered by Groq's lightning-fast inference for automatically selecting the best LLM for every prompt with built-in safety features. No more model selection guesswork - just send your prompt and get optimal results for your use case.**
+
+![Prompt Engine Architecture](pe.png)
 
 ## Overview
 
-This application demonstrates how to use [JigsawStack's](https://jigsawstack.com) Prompt Engine for automated AI task execution using Groq-powered infrastructure. Built as a complete, end-to-end template that you can fork, customize, and deploy.
-
-JigsawStack is a powerful AI SDK designed to integrate into any backend, automating tasks such as web scraping, Optical Character Recognition (OCR), translation, and more, using Large Language Models (LLMs). By plugging JigsawStack into your existing application infrastructure, you can offload the heavy lifting and focus on building.
+This template demonstrates how to use [JigsawStack's](https://jigsawstack.com) Prompt Engine powered by Groq's LPU™ Inference Engine and is built as a complete starter that you can fork, customize, and deploy to automate AI tasks like content generation, data processing, translation, and more without the complexity of model selection and infrastructure management.
 
 The [JigsawStack Prompt Engine](https://jigsawstack.com/docs/examples/core-ai/prompt-engine) automatically chooses the best LLM for every one of your prompts, delivering lightning-fast inference speed and performance powered by Groq.
+
+The JigsawStack Prompt Engine uses a Mixture-of-Agents (MoA) approach where each prompt runs across 5 LLMs from GroqCloud simultaneously. The outputs are then ranked by similarity and quality before being merged into a single, optimized result that you can return to your application.
 
 > Read about how JigsawStack's [Mixture of Agents approach outperforms single LLMs while reducing costs](https://jigsawstack.com/blog/jigsawstack-mixture-of-agents-moa-outperform-any-single-llm-and-reduce-cost-with-prompt-engine) in their technical blog.
 
 **Key Features:**
-- **Mixture-of-Agents (MoA) Approach:** Automatically selects the best LLMs for your task, combining outputs for higher quality and faster results
+- **Mixture-of-Agents (MoA) Approach:** Automatically selects the best LLMs for your task, combining outputs for higher quality and faster results.
 - **Prompt Caching:** Optimizes performance for repeated prompt runs
 - **Automatic Prompt Optimization:** Improves performance without manual intervention
 - **Response Schema Validation:** Ensures accuracy and consistency in outputs
 - **Prompt Guard (Llama Guard 3 by Groq):** Prevents prompt injection and unsafe content including privacy protection, hate speech filtering, sexual content blocking, election misinformation prevention, code interpreter abuse protection, and unauthorized professional advice prevention
 - **Reusable prompt engines:** Create once, use many times
-- Sub-second response times, efficient concurrent request handling, and production-grade performance powered by Groq
 
 ## Architecture
 
@@ -144,14 +147,12 @@ This template is designed to be a foundation for you to get started with. Key ar
 
 ## Next Steps
 ### For Developers
-- **Create your free JigsawStack account:** Access the dashboard, API keys, and documentation at [JigsawStack Dashboard](https://jigsawstack.com/dashboard)
-- **Build and customize:** Fork this repo and start customizing to build out your own application
-- **Learn more:** Refer to the [JigsawStack documentation](https://docs.jigsawstack.com) and [Prompt Engine setup guide](https://jigsawstack.com/docs/examples/core-ai/prompt-engine)
-- **Get support:** Connect with other developers building on Groq at [Groq Developer Forum](https://community.groq.com)
+- **Give this repo a star:** Show us your support for this template and we'll build more like this for you! ⭐
+- **Build and customize:** Fork this repo and start customizing to build out your own application.
+- **Get support:** Connect with our team and other developers building on Groq on our new [Groq Developer Forum](https://community.groq.com).
 
 ### For Founders and Business Leaders
-- **See enterprise capabilities:** This template showcases production-ready AI that can handle realtime business workloads with built-in safety features
-- **Discuss your needs:** [Contact Groq's team](https://groq.com/enterprise-access/) to explore how Groq can accelerate your AI initiatives
+- **Like what you see or want to learn more?** This template showcases production-ready AI that can handle realtime business workloads with built-in safety features powered by Groq technology. If you're interested in learning more about how Groq can accelerate your AI initiatives, [contact our team](https://groq.com/enterprise-access/) for us to explore how we can help you.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
