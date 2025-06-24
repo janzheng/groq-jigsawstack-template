@@ -1,10 +1,9 @@
 # JigsawStack Prompt Engine Template
 
-**Have you ever felt lost trying to choose the best model for your AI application? With dozens of models available on Groq - from Llama and Qwen to Gemma and beyond - choosing the optimal LLM for each specific prompt can be overwhelming and time-consuming.
+[JigsawStack](https://jigsawstack.com) is an AI SDK that integrates into any backend, automating tasks like web scraping, OCR, and translation using LLMs. The Prompt Engine automatically selects the best LLM for every prompt with Groq-powered inference and built-in safety features. 
 
-This complete starter template demonstrates JigsawStack's Prompt Engine powered by Groq's lightning-fast inference for automatically selecting the best LLM for every prompt with built-in safety features. No more model selection guesswork - just send your prompt and get optimal results for your use case.**
+This starter template demonstrates how to use the Prompt Engine's Mixture-of-Agents approach to automatically choose optimal models for your prompts without manual selection.
 
-![Prompt Engine Architecture](pe.png)
 
 ## Overview
 
